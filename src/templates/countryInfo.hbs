@@ -1,0 +1,20 @@
+<div class="container">
+    <section class="country-section">
+        <h1 class="hero-header"> {{this.name}}</h1>
+        <div class="county-section__div">
+            <ul class="county-info-list">
+                <li>Capital: {{this.capital}}</li>
+                <li>Population: {{this.population}}</li>
+                <li>
+                    <ul class="country-languages-list">Languages:
+                        {{#each this.languages}}
+                        <li class="language-item">{{this.name}}</li>
+                        {{/each}}
+                    </ul>
+                </li>
+            </ul>
+            <img class="country-flag" src="{{this.flag}}">
+
+        </div>
+    </section>
+</div>

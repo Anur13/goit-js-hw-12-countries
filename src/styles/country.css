@@ -1,0 +1,57 @@
+.container {
+    width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.country-flag {
+    width: 500px;
+    height: auto;
+}
+.county-section__div {
+    height: 400px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.county-info-list {
+    font-size: 26px;
+    list-style: none;
+}
+.countries-list {
+    font-size: 26px;
+}
+.hero-header {
+    text-align: center;
+}
+
+.country-languages-list {
+    padding-left: 0px;
+}
+.language-item {
+    margin-left: 40px;
+}
+
+.input-form {
+    margin-top: 100px;
+    display: flex;
+    justify-content: center;
+}
+.countries-section {
+    margin-top: 100px;
+}
+.country-input {
+    font-size: 20px;
+    width: 500px;
+    height: 30px;
+}
+
+.country-section {
+    margin-top: 60px;
+}
+.country-item {
+    margin-top: 10px;
+}
+.country-link {
+    text-decoration: none;
+    color: black;
+}
